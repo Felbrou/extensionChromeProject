@@ -12,3 +12,10 @@ for (let i = 0; i < imgs.length; i++) {
     const randomImg = Math.floor(Math.random() * brandonFraserImages.length);
     imgs[i].src = brandonFraserImages[randomImg];
 }
+
+
+const svgs = document.getElementsByTagName("svg");
+for (let i = 0; i < imgs.length; i++) {
+    const randomImg = Math.floor(Math.random() * brandonFraserImages.length);
+    imgs[i].src = brandonFraserImages[randomImg];
+}
